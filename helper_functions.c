@@ -24,6 +24,6 @@ char *read_input(void)
 		exit(EXIT_FAILURE);
 	}
 
-	return input;
+	return (input);
 }
 
