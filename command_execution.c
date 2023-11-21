@@ -53,6 +53,11 @@ void process_input(char *input)
 	}
 }
 
+/**
+ * main - entry point
+ *
+ * Return: 0 (always)
+ */
 int main(void)
 {
 	char *input;
@@ -70,6 +75,5 @@ int main(void)
 	process_input(input);
 	free(input);
 	}
-
 	return (0);
 }
